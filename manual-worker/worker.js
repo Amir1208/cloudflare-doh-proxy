@@ -2,7 +2,23 @@ const UPSTREAM_DNS_PROVIDERS = [
   'https://cloudflare-dns.com/dns-query',
   'https://dns.google/dns-query',
   'https://dns.quad9.net/dns-query',
-  'https://doh.opendns.com/dns-query'
+  'https://doh.opendns.com/dns-query',
+  'https://dns.adguard.com/dns-query',
+  'https://doh.cleanbrowsing.org/dns-query',
+  'https://doh.sb/dns-query',
+  'https://doh.mullvad.net/dns-query',
+  'https://dns.nextdns.io/dns-query',
+  'https://dns.controld.com/dns-query',
+  'https://doh.libredns.gr/dns-query',
+  'https://dns.uncensoreddns.org/dns-query',
+  'https://public.dns.iij.jp/dns-query',
+  'https://doh.jpne.jp/dns-query',
+  'https://doh.kt.co.kr/dns-query',
+  'https://dns.tatacommunications.com/dns-query',
+  'https://dns.digitalcourage.de/dns-query',
+  'https://doh.restena.lu/dns-query',
+  'https://dns.nlnetlabs.nl/dns-query',
+  'https://dns.cira.ca/dns-query'
 ];
 
 const DNS_CACHE_TTL = 300;
